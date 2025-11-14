@@ -170,7 +170,7 @@ function make_sugar_config(&$sugar_config)
         'import_dir' => $import_dir, // this must be set!!
         'import_max_records_per_file' => 100,
         'import_max_records_total_limit' => '',
-        'languages' => empty($languages) ? array('en_us' => 'English (US)') : $languages,
+        'languages' => empty($languages) ? array('en_us' => 'English (US)', 'pt_PT' => 'Português (Portugal)') : $languages,
         'list_max_entries_per_page' => empty($list_max_entries_per_page) ? 20 : $list_max_entries_per_page,
         'list_max_entries_per_subpanel' => empty($list_max_entries_per_subpanel) ? 10 : $list_max_entries_per_subpanel,
         'list_max_entries_per_modal' => empty($list_max_entries_per_modal) ? 10 : $list_max_entries_per_modal,
@@ -459,7 +459,7 @@ function get_sugar_config_defaults(): array
         'installer_locked' => true,
         'import_max_records_per_file' => 100,
         'import_max_records_total_limit' => '',
-        'languages' => ['en_us' => 'English (US)'],
+        'languages' => ['en_us' => 'English (US)', 'pt_PT' => 'Português (Portugal)'],
         'login_language' => true,
         'large_scale_test' => false,
         'list_max_entries_per_page' => 20,
